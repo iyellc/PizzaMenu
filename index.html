@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/vendor/swiperjs/swiper.min.css" />
+
+    <script src="./assets/vendor/swiperjs/swiper.min.js"></script>
+
+    <title>Pizza Menu</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h2 class="navbar-brand">
+        Pizza Menu
+      </h2>
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="index.html" class="navbar-link">
+            <span class="navbar-link-text">Home</span>
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="about.html" class="navbar-link">
+            <span class="navbar-link-text">About</span>
+          </a>
+        </li>
+        <li class="navbar-item">
+          <a href="order.html" class="navbar-link">
+            <span class="navbar-link-text">Order</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <img src="./assets/img/pizza1.jpg" alt="Veggie Pizza" height="550px" width="100%">
+        </div>
+        <div class="swiper-slide">
+            <img src="./assets/img/pizza2.jpg" alt="Veggie Pizza" height="550px" width="100%">
+        </div>
+        <div class="swiper-slide">
+            <img src="./assets/img/pizza4.jpg" alt="Veggie Pizza" height="550px" width="100%">
+        </div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+    </div>
+
+    <div class="wrapper-main">
+        <div class="cards">
+            <div class="card">
+                <h2 class="card-title">Fresh</h2>
+                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, atque?</p>
+            </div>
+             <div class="card">
+                <h2 class="card-title">Creative</h2>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo.</p>
+            </div>
+             <div class="card">
+                <h2 class="card-title">Vegan-Free</h2>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, vitae.</p>
+            </div>
+        </div>
+      <p>
+        This site is a pizza ordering site for lazy people.
+      </p>
+    </div>
+    <div class="footer">
+      Copyright © IYE LLC 2023
+    </div>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
